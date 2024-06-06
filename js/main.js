@@ -16,9 +16,9 @@ getCharacter((data) => {
       <article class="card bg-dark" style="width: 18rem;">
         <img src="${personaje.image}" class="card-img-top" alt="Personaje" />
         <div class="card-body">
-          <h3>${personaje.name}</h3>
-          <p class="card-text">${personaje.status}</p>
-          <p class="card-text">${personaje.species}</p>
+          <h3 class="text-body-emphasis">${personaje.name}</h3>
+          <p class="card-text text-light">${personaje.status}</p>
+          <p class="card-text text-light">${personaje.species}</p>
         </div>
       </article>
     `);
