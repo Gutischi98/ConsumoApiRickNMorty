@@ -26,7 +26,7 @@ card {
 }
 
 @media (max-width: 768px) {
-  .grid-container {
+  main {
     grid-template-columns: 1fr; 
   }
 }
