@@ -13,7 +13,7 @@ getCharacter((data) => {
   data.results.forEach((personaje) => {
 
     const article = document.createRange().createContextualFragment(`
-      <article class="card" style="width: 18rem;">
+      <article class="card bg-dark" style="width: 18rem;">
         <img src="${personaje.image}" class="card-img-top" alt="Personaje" />
         <div class="card-body">
           <h3>${personaje.name}</h3>
