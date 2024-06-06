@@ -5,7 +5,8 @@ let getCharacter = (done) => {
     .then((Response) => Response.json())
     .then((data) => {
       done(data);
-    });
+    })
+    .catch((error) => console.error('Error:', error));
 };
 
 getCharacter((data) => {
